@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+
+<title>Hello World</title>
+<link rel="stylesheet" href="stylesheet.css">
+<link href='http://fonts.googleapis.com/css?family=Crete+Round:400,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Unkempt:400,700' rel='stylesheet' type='text/css'>
+
+<script src="jquery.js" type="text/javascript"></script>
+<link href="css/lightbox.css" rel="stylesheet">
+<script src="js/lightbox.js" type="text/javascript"></script>
+<script src="jquery.backstretch.min.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>My World </h1>
+    <h2>-MANY BRANCHES, ONE ROOT, ONE FAMILY-</h2>
+    <nav class="main-navigation">
+
+    <a href="index.html">Home</a>
+    <a href="AboutMe.html">All About Me</a>
+        <a href="culture.html">My Culture</a>
+        <a href="gallery.html">Gallery</a>
+    <a href="video.html">Video's</a>
+
+</nav>
+</header>
+<section class="introduction">
+    <p>Talofa lava , Kia ora , Malo lelei and Welcome to my Site</p>
+    <p>My name is Tamara Okay , I am 16 years of age and is a senior at Tamaki College. The site will show you small details on my favourite sport players, family, culture and much more. Enjoy the my site </p>
+
+    <p>You will find some really nice pictures and videos of my culture, Richard Parker, the Burgess Brothers, the Rabbitohs, Nz Breakers, the Warriors, Zach LaVine, Peyton Siva, Daniel Vidot, The Originals and much more.</p>
+
+   <a href="http://tamaki.ac.nz/wp-content/uploads/2013/09/tamakicollege2.png" data-lightbox="logos">
+    <img src="http://tamaki.ac.nz/wp-content/uploads/2013/09/tamakicollege2.png">
+    </a>
+    
+</section>
+
+
+<script>
+$.backstretch([
+"http://cdn.wall88.com/51b97ae6c2bda15411.jpg",
+"http://static.tumblr.com/580a47ed16bd142fcef4cb391de6465b/hppvukl/Negmogddo/tumblr_static_london-city-photos-black-and-white-083.jpg",
+"http://www.themesltd.com/backgrounds-large/black_and_white_city.jpg",
+"http://i.imgur.com/ufTQ1p1.jpg",
+"http://www.themesltd.com/backgrounds/hipster/space_astronauts.png",
+"http://25.media.tumblr.com/tumblr_magi4kmGeg1rdvzeho1_1280.jpg",
+"http://images.doctissimo.fr/1/divers/vintage/photo/hd/9347597934/15334040f51/vintage-tumblr_lcyzp505sa1qe6ov6o1_500-big.jpg"],
+      {duration: 3000, fade: 750}
+);
+</script>
+    
+</body>
+
+</html>
